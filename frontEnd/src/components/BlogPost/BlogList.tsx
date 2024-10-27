@@ -8,7 +8,7 @@ interface Props {
 function BlogList({ blogs }: Props) {
   return (
     <>
-      <h2>BLog List</h2>
+      <h2 className="text-3xl text-gray-800 font-bold my-4">BLog List</h2>
 
       {blogs.map((blog) => (
         <BlogCart blog={blog} key={blog.id} />

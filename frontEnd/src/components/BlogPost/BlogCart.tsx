@@ -8,7 +8,7 @@ interface Props {
 function BlogCart({ blog }: Props) {
   return (
     <>
-      <article className="border-2 border-gray-600 rounded">
+      <article className="border-2 border-gray-600 rounded my-2">
         <header className="px-6 py-2">
           <div className="flex items-center space-x-4">
             <h3 className="text-xl text-gray-800 font-medium">{blog.title}</h3>
@@ -22,7 +22,7 @@ function BlogCart({ blog }: Props) {
           <hr className="w-1/3 mx-auto border-0 border-t-2 border-gray-600 rounded my-2" />
         </header>
         <main className="px-6 py-3">
-          <p>{blog.memo}</p>
+          <p className="text-md text-gray-600">{blog.memo}</p>
         </main>
       </article>
     </>
