@@ -2,7 +2,7 @@ import apiClient from "./api-client";
 
 export interface Blogs {
   id: number;
-  name: string;
+  title: string;
   memo: string;
   author: string;
 }

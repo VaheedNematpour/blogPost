@@ -2,11 +2,13 @@
   "blogs": [
     {
       "id": "1",
+      "title": "First Blog",
       "memo": "This is the first blog I'm going to write.",
       "author": "V"
     },
     {
       "id": "2",
+      "title": "Second Blog",
       "memo": "This my second blog, that I'm going to create for my BlogPost web-page.",
       "author": "V"
     }
