@@ -1,10 +1,14 @@
 {
-  "Blogs": [
+  "blogs": [
     {
       "id": "1",
-      "memo": "",
-      "author": "V",
-      "date": "10, 02, 2024"
+      "memo": "This is the first blog I'm going to write.",
+      "author": "V"
+    },
+    {
+      "id": "2",
+      "memo": "This my second blog, that I'm going to create for my BlogPost web-page.",
+      "author": "V"
     }
   ]
 }
